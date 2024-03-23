@@ -7,8 +7,7 @@ import { useState } from 'react'
 export function Home({userLogout,BASE_URL}){
     const [getGraph,setGetGraph]=useState(false)
     if(getGraph){
-
-        return <Navigate to={`//${BASE_URL}/ml/graph`}></Navigate>
+        return <Navigate to={`//${BASE_URL}ml/graph`}></Navigate>
     }
     return(
 <div>

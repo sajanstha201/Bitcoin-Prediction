@@ -7,14 +7,14 @@ import { useState } from 'react'
 function App() {
   const [userDetail,setUserDetail]=useState({'detail':'','user_data':''})
   const [userLogout,setUserLogout]=useState(localStorage.getItem('token')===null)
-  const [BASE_URL,setBASE_URL]=useState('http://127.0.0.1:8000/')
+  const [BASE_URL,setBASE_URL]=useState('https://bitcoin-prediction-backend-447985c0fd7a.herokuapp.com/')
   return (
     <div className="app_container">
     <BrowserRouter>
     <Navbar userDetail={userDetail} setUserDetail={setUserDetail} userLogout={userLogout} setUserLogout={setUserLogout} />
     <div style={{minHeight:'500px'}}>
     <Routes>
-      <Route path='/Bitcoin-Prediction' element={<Home userLogout={userLogout}></Home>}></Route>
+      <Route path='/Bitcoin-Prediction' element={<Home userLogout={userLogout} BASE_URL={BASE_URL}></Home>}></Route>
       <Route path='/Bitcoin-Prediction/register' element={<Register BASE_URL={BASE_URL}></Register>}></Route>
       <Route path='/Bitcoin-Prediction/login' element={<Login setUser={setUserDetail} setUserLogout={setUserLogout} BASE_URL={BASE_URL}/>}></Route>
       <Route path='/Bitcoin-Prediction/calculator' element={<CurrencyCalculator BASE_URL={BASE_URL}r></CurrencyCalculator>}></Route>
