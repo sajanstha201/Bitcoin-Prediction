@@ -1,6 +1,6 @@
 {
-  "homepage":"https://github.com/sajanstha201/Bitcoin-Prediction/",
-  "name": "frontend",
+  "homepage":"https://sajanstha201.github.io/Bitcoin-Prediction",
+  "name": "bitcoin-prediction-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
