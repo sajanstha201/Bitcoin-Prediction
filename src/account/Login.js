@@ -17,7 +17,7 @@ export function Login({setUser,setUserLogout,BASE_URL}){
     }
     const apply_login=async ()=>{
         try{
-            const response=await axios.post(BASE_URL+'/account/login/',form)
+            const response=await axios.post(BASE_URL+'account/login/',form)
             if(response.data['detail']==='success'){
                 localStorage.setItem('token',response.data['token'])
                 localStorage.setItem('first name',response.data['user_data']['first_name'])

@@ -12,7 +12,7 @@ export function CurrencyCalculator({BASE_URL}){
         useEffect(()=>{
             const get_price=async()=>{
                 try{
-                    const response=await axios.get(BASE_URL+'/api/bitcoinrate')
+                    const response=await axios.get(BASE_URL+'api/bitcoinrate')
                     const data=response.data['data']
                     setCurrencyDetail(data)
                 }

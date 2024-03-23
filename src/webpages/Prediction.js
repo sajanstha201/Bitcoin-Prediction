@@ -17,7 +17,7 @@ export function Prediction({BASE_URL}){
         }
         const get_graph_authenticated= async ()=>{
             try{
-                const response=await axios.get(BASE_URL+'/api/graph-authenticated/',
+                const response=await axios.get(BASE_URL+'api/graph-authenticated/',
                 {headers:{
                     'Authorization':'Token '+localStorage.getItem('token')
                 }})

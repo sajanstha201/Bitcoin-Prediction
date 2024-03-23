@@ -6,9 +6,9 @@ import {Navigate,Link} from 'react-router-dom'
 import { useState } from 'react'
 export function Home({userLogout,BASE_URL}){
     const [getGraph,setGetGraph]=useState(false)
+    const base=BASE_URL.substring(7,BASE_URL.length-1)
     if(getGraph){
-        return <Navigate to={`//${BASE_URL}ml/graph`}></Navigate>
-    }
+    return <Navigate to={`//${base}/ml/graph`}></Navigate>}
     return(
 <div>
     <div className="upper_container"style={{width:'100%',background:'linear-gradient(to right, #0d104d, #28408b)'}}>

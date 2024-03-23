@@ -21,7 +21,7 @@ export function Register({BASE_URL}){
     }
     const submit_form= async ()=>{
         try{
-            await axios.post(BASE_URL+'/account/register/',form)
+            await axios.post(BASE_URL+'account/register/',form)
                     .then(response=>{
                         if(response.status>=200&&response.status<=300){
                             console.log(response.data)
