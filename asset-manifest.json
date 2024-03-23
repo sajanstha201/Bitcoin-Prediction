@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/sajanstha201/Bitcoin-Prediction-Frontend/static/css/main.4aca21a2.css",
+    "main.js": "/sajanstha201/Bitcoin-Prediction-Frontend/static/js/main.bc300977.js",
+    "static/js/453.8ab44547.chunk.js": "/sajanstha201/Bitcoin-Prediction-Frontend/static/js/453.8ab44547.chunk.js",
+    "static/media/breadcumb.png": "/sajanstha201/Bitcoin-Prediction-Frontend/static/media/breadcumb.7b30ccf31b1f63513865.png",
+    "static/media/about.png": "/sajanstha201/Bitcoin-Prediction-Frontend/static/media/about.f5e005adc48341722af7.png",
+    "static/media/device.png": "/sajanstha201/Bitcoin-Prediction-Frontend/static/media/device.c5ace1962b9f294e2e4b.png",
+    "static/media/2.jpg": "/sajanstha201/Bitcoin-Prediction-Frontend/static/media/2.ad09773ca446c59d9e72.jpg",
+    "static/media/3.jpg": "/sajanstha201/Bitcoin-Prediction-Frontend/static/media/3.6bf068350d770eb65905.jpg",
+    "static/media/1.jpg": "/sajanstha201/Bitcoin-Prediction-Frontend/static/media/1.0055ab7c6737e4fa9af8.jpg",
+    "index.html": "/sajanstha201/Bitcoin-Prediction-Frontend/index.html",
+    "main.4aca21a2.css.map": "/sajanstha201/Bitcoin-Prediction-Frontend/static/css/main.4aca21a2.css.map",
+    "main.bc300977.js.map": "/sajanstha201/Bitcoin-Prediction-Frontend/static/js/main.bc300977.js.map",
+    "453.8ab44547.chunk.js.map": "/sajanstha201/Bitcoin-Prediction-Frontend/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4aca21a2.css",
+    "static/js/main.bc300977.js"
+  ]
+}
