@@ -1,8 +1,7 @@
 import './Prediction.css'
 import axios from 'axios'
 import {useState,useEffect} from 'react'
-export function Prediction(){
-    const BASE_URL='http://127.0.0.1:8000'
+export function Prediction({BASE_URL}){
     const [response,setResponse]=useState([])
     useEffect(()=>{
         const get_graph= async ()=>{

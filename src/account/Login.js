@@ -2,8 +2,7 @@ import './Login.css'
 import { useState } from 'react'
 import { Link,Navigate } from 'react-router-dom'
 import axios from 'axios'
-export function Login({setUser,setUserLogout}){
-    const BASE_URL='http://127.0.0.1:8000'
+export function Login({setUser,setUserLogout,BASE_URL}){
     const [form,setForm]=useState({
         "username":"",
         "password":""

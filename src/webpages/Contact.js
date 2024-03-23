@@ -3,7 +3,7 @@ import './Contact.css'
 import {ContactManipal,ContactMessage} from '../components/ContactUs'
 
 
-export function Contact(){
+export function Contact({BASE_URL}){
     return(
 <div className="contact_container">
     <div className="contact_upper_container" style={{background:'linear-gradient(to right, #0d104d, #28408b)'}}>
@@ -22,7 +22,7 @@ export function Contact(){
             <ContactManipal/>
         </div>
         <div className="comment_out">
-            <ContactMessage/>
+            <ContactMessage BASE_URL={BASE_URL}/>
         </div>
     </div>
 </div>

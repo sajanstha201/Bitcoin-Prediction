@@ -2,8 +2,7 @@ import './ContactMessage.css'
 import {useState} from 'react'
 import {Navigate} from "react-router-dom"
 import axios from 'axios'
-export function ContactMessage(){
-    const BASE_URL='http://127.0.0.1:8000/'
+export function ContactMessage({BASE_URL}){
     const [query,setQuery]=useState({
         'name':'',
         'email':'',

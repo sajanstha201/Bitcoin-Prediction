@@ -2,8 +2,7 @@ import './CurrencyCalculator.css'
 import breadcumb from '../static/media/breadcumb.png'
 import {useEffect, useState} from 'react'
 import axios from 'axios'
-export function CurrencyCalculator(){
-        const BASE_URL='http://127.0.0.1:8000'
+export function CurrencyCalculator({BASE_URL}){
         const[currencyDetail,setCurrencyDetail]=useState([])
         const[Output1,setOutput1]=useState(0)
         const[Output2,setOutput2]=useState(0)

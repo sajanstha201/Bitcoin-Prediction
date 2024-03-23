@@ -4,8 +4,7 @@ import {News} from '../components/Home'
 import { BitcoinFeature } from '../components/Home'
 import {Navigate,Link} from 'react-router-dom'
 import { useState } from 'react'
-export function Home({userLogout}){
-    const BASE_URL='127.0.0.1:8000'
+export function Home({userLogout,BASE_URL}){
     const [getGraph,setGetGraph]=useState(false)
     if(getGraph){
 

@@ -2,8 +2,7 @@ import './FAQ.css'
 import {useEffect, useState} from 'react'
 import axios from 'axios'
 import breadcumb from '../static/media/breadcumb.png'
-export function FAQ(){
-    const BASE_URL='http://127.0.0.1:8000/'
+export function FAQ({BASE_URL}){
     const [faq,setFaq]=useState([])
     useEffect(()=>{
         const request_faq =async()=>{
