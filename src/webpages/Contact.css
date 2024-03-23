@@ -1,0 +1,35 @@
+.img_breadcumb{
+    position:absolute;
+    width:180px;
+    height:180px;
+    left:80%;
+
+}
+.contact_container{
+    position:relative;
+}
+.contact_upper_container{
+    position: relative;
+    height:150px;
+    width:100%;
+}
+.contact_heading{
+    margin:0;
+    color:white;
+    position:absolute;
+    top:30%;
+    left:5%;
+    font-size: 30px;
+}
+.comment{
+    padding:30px;
+    width:100%;
+    display: flex;
+}
+.contact_link{
+    padding-left:100px;
+    padding-top:20px;
+    width:50%;
+    height:500px;
+    color:black
+}

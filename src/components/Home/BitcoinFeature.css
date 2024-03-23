@@ -1,0 +1,37 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin:30px;
+    text-align: center;
+}
+.feature{
+    background-color: aliceblue;
+    flex: 1; /* Each item takes equal space */
+    padding: 20px;
+    margin:20px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    transition-duration: 500ms;
+}
+.feature:hover{
+    transition-delay: 0.1s; /* Delay the hover effect by 0.2 seconds */
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    background-color:#ffaf02;
+}
+.feature h3{
+    padding:20px;
+
+}
+.feature p{
+    color:#8e8e8e;
+    line-height: 2;
+    font-family: "Open Sans", sans-serif;
+}
+.feature:hover h3{
+    color:white;
+
+}
+.feature:hover p{
+    color:white;
+}

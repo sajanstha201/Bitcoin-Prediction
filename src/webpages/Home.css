@@ -1,0 +1,12 @@
+
+.upper_container{
+    position:relative;
+    height:800px;
+}
+.breadcumb_img{
+    position:absolute;
+    left:50%;
+    top:10%;
+    width:500px;
+    height:500px;
+}

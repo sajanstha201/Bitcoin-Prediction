@@ -1,0 +1,35 @@
+.comment_input{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+.comment_input input{
+    margin:10px;
+    background-color: #eef3f6;
+    transition-duration: 500ms;
+    border:none;
+    font-style: italic;
+    width:400px;
+    height: 30px;
+    padding:15px 30px;
+}
+.comment_input textarea{
+    margin:10px;
+    background-color: #eef3f6;
+    transition-duration: 500ms;
+    border:none;
+    font-style: italic;
+    width:400px;
+    height: 150px;
+    padding:15px 30px;
+}
+.comment_input button{
+    background-color: #ffaf02;
+    width:200px;
+    margin:10px;
+}
+.comment_input button:hover{
+    border-bottom: 3px solid #ffaf02;
+    background-color:#eef3f6 ;
+    color:#292929;
+}

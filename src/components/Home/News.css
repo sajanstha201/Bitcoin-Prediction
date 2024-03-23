@@ -1,0 +1,28 @@
+.news_container{
+margin: 120px;
+position:relative;
+}
+.news_container img{
+    position:absolute;
+    left:100px;
+    width:150px;
+    height:150px;
+}
+.news_container a{
+    font-size: 16px;;
+    padding-top: 40px;
+    padding-left:230px;
+    color:black;
+}
+.news_container a:hover{
+    color:#ffaf02;
+}
+.news_content{
+    text-align: left;
+    left:30%+140px;
+}
+.news_container p{
+    padding-top:0px;
+    padding-left:260px;
+    width:500px;
+}

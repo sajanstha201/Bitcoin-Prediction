@@ -1,0 +1,6 @@
+export {CurrencyCalculator} from './CurrencyCalculator'
+export {Home} from './Home'
+export {AboutUs} from './AboutUs'
+export {Contact} from './Contact'
+export {FAQ} from './FAQ'
+export {Prediction} from './Prediction'

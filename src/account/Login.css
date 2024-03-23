@@ -1,0 +1,74 @@
+.container {
+    background-color: #ffffff; /* White background for the inner container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: calc(400px); /* Increase width by 1/4 */
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.outer{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color:rgb(40, 64, 139);
+}
+h1 {
+    text-align: center;
+    color:white;
+
+}
+
+.input-group {
+    margin-bottom: 30px; /* Increased margin for better spacing */
+}
+
+.input-group label {
+    font-weight: bold;
+    color: #343a40; /* Dark gray label color */
+    font-size: 16px; /* Increased font size for labels */
+}
+
+.input-group input {
+    width: calc(100% - 100px); /* Adjusted width to account for padding */
+    padding: 12px; /* Increased padding for inputs */
+    border: 2px solid #ced4da; /* Increased border width for inputs */
+    border-radius: 6px; /* Increased border radius for inputs */
+    font-size: 16px; /* Increased font size for inputs */
+}
+
+.button-group {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Align items vertically */
+    align-items: flex-end;
+}
+
+.spacer {
+    width: 20px; /* Adjust the space between buttons */
+}
+
+button {
+    padding: 14px 24px; /* Increased padding for buttons */
+    background-color: #007bff; /* Blue login button color */
+    color: #ffffff; /* White button text color */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+    font-size: 16px; /* Increased font size for buttons */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.signup-btn {
+    padding: 14px 24px; /* Increased padding for sign-up button */
+    background-color: #28a745; /* Green sign-up button color */
+    font-size: 16px; /* Increased font size for sign-up button */
+    border-radius: 6px;
+}
+
+.signup-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}

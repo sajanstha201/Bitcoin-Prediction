@@ -1,0 +1,52 @@
+.img_breadcumb{
+    position:absolute;
+    width:180px;
+    height:180px;
+    left:80%;
+
+}
+.aboutus_container{
+    position:relative;
+}
+.aboutus_upper_container{
+    position: relative;
+    height:150px;
+    width:100%;
+}
+.aboutus_heading{
+    margin:0;
+    color:white;
+    position:absolute;
+    top:30%;
+    left:5%;
+    font-size: 30px;
+}
+.guide_head{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.guide_head h2{
+   padding-top: 5px;
+   padding-left:12%;
+}
+.device_img{
+    position:absolute;
+    top:35%;
+    left:50%;
+}
+.video_guide{
+    width:100%;
+    background-color: white;
+    height:400px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.video_text{
+    padding-left: 10%;
+    
+}
+.video_text h2{
+    padding-bottom: 20px;
+}

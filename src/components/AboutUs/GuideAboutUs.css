@@ -1,0 +1,25 @@
+.guide_aboutus{
+    background-color: white;
+    color:#8e8e8e;
+    font-family: "Open Sans", sans-serif;
+    font-size:14px;
+    line-height: 2;
+    font-weight: 500;
+    border-bottom: 3px solid #ffaf02;
+    transition-duration:500ms;
+    padding:20px;
+    margin-left: 20%;
+    margin-right:10%;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.guide_aboutus:hover{
+    background-color: #292929;
+    color: white;
+}
+.guide_aboutus:hover h2 {
+    color: white;
+}
+.guide_aboutus h2{
+    color:black;
+}

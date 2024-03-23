@@ -1,0 +1,46 @@
+
+    .navbar{
+        display:flex;
+        background-color: black;
+        height: 100px;
+        font-size:20px;
+        color:#FFFFFF;    
+        align-items: centre; 
+    }
+    .welcome{
+        width:150px;
+        margin-top: 40px;
+        margin-left: 20px;
+        
+    }
+    .bitcoin{
+        width:200px;
+        margin-left: 30px;
+        color:#FFAF02;
+        margin-top: 40px;
+        font-weight: 800;
+        font-size: 25px;
+    }
+    .buttons{
+        margin-left:10px;
+        justify-content: space-evenly;
+        display: flex;
+    }
+    a{
+        text-decoration: none;
+        margin-left: 30px;
+        margin-top: 40px;
+        margin-right:30px;
+        color: white;
+    }
+    a:hover{
+        color:#FFAF02;
+    }
+    
+    .hello_user{
+        padding-top:36px;
+        padding-left:100px;
+        color:#FFAF02;
+        font-size:27px;
+        font-weight: 500;
+    }

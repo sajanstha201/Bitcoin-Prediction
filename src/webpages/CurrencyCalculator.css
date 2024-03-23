@@ -1,0 +1,46 @@
+.img_breadcumb{
+    position:absolute;
+    width:180px;
+    height:180px;
+    left:80%;
+
+}
+.calculator_container{
+    position:relative;
+}
+.calculator_upper_container{
+    position: relative;
+    height:150px;
+    width:100%;
+}
+.calculator_heading{
+    margin:0;
+    color:white;
+    position:absolute;
+    top:30%;
+    left:5%;
+    font-size: 30px;
+}
+.calculator_lower_container{
+    background-color: #222429;
+    min-height: 800px;
+    height:100%;
+    text-align: center;
+    color:white
+}
+#bitcoinSelect{
+    width:80px;
+    height:33px;
+}
+#bitcoinOutput{
+    width:80px;
+    height:30px;
+}
+#bitcoinInput{
+    width:80px;
+    height:30px;
+}
+.equal-sign{
+    margin:10px;
+}
+
