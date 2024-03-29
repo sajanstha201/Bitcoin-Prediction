@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import {HashRouter,Routes,Route} from 'react-router-dom'
 import {Register,Login} from './account'
 import  {Navbar,Footer} from './components'
 import { Home,AboutUs,Contact,CurrencyCalculator,FAQ, Prediction} from './webpages'
@@ -10,7 +10,7 @@ function App() {
   const [BASE_URL,setBASE_URL]=useState('https://bitcoin-prediction-backend-447985c0fd7a.herokuapp.com/')
   return (
     <div className="app_container">
-    <BrowserRouter>
+    <HashRouter>
     <Navbar userDetail={userDetail} setUserDetail={setUserDetail} userLogout={userLogout} setUserLogout={setUserLogout} />
     <div style={{minHeight:'500px'}}>
     <Routes>
@@ -25,7 +25,7 @@ function App() {
     </Routes>
     </div>
     <Footer/>
-    </BrowserRouter>
+    </HashRouter>
     </div>
 
   );
