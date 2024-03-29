@@ -20,11 +20,11 @@ export function Footer(){
                     fingertips.</p>
             </div>
             <div class="links">
-            <Link to='/Bitcoin-Prediction'>Home</Link>
+            <Link to=' '>Home</Link>
                 
-                <Link to='/Bitcoin-Prediction/contact'>Contact</Link>
-                <Link to='/Bitcoin-Prediction/about-us'>AboutUs</Link>
-                <Link to='/Bitcoin-Prediction/faq'>FAQ</Link>
+                <Link to='/contact'>Contact</Link>
+                <Link to='/about-us'>AboutUs</Link>
+                <Link to='/faq'>FAQ</Link>
             </div>
         </div>
 

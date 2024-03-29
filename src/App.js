@@ -14,14 +14,14 @@ function App() {
     <Navbar userDetail={userDetail} setUserDetail={setUserDetail} userLogout={userLogout} setUserLogout={setUserLogout} />
     <div style={{minHeight:'500px'}}>
     <Routes>
-      <Route path='/Bitcoin-Prediction' element={<Home userLogout={userLogout} BASE_URL={BASE_URL}></Home>}></Route>
-      <Route path='/Bitcoin-Prediction/register' element={<Register BASE_URL={BASE_URL}></Register>}></Route>
-      <Route path='/Bitcoin-Prediction/login' element={<Login setUser={setUserDetail} setUserLogout={setUserLogout} BASE_URL={BASE_URL}/>}></Route>
-      <Route path='/Bitcoin-Prediction/calculator' element={<CurrencyCalculator BASE_URL={BASE_URL}r></CurrencyCalculator>}></Route>
-      <Route path='/Bitcoin-Prediction/about-us' element={<AboutUs></AboutUs>}></Route>
-      <Route path='/Bitcoin-Prediction/contact' element={<Contact BASE_URL={BASE_URL}></Contact>}></Route>
-      <Route path='/Bitcoin-Prediction/faq' element={<FAQ BASE_URL={BASE_URL}></FAQ>}></Route>
-      <Route path='/Bitcoin-Prediction/prediction' element={<Prediction BASE_URL={BASE_URL}></Prediction>}></Route>
+      <Route path='' element={<Home userLogout={userLogout} BASE_URL={BASE_URL}></Home>}></Route>
+      <Route path='/register' element={<Register BASE_URL={BASE_URL}></Register>}></Route>
+      <Route path='/login' element={<Login setUser={setUserDetail} setUserLogout={setUserLogout} BASE_URL={BASE_URL}/>}></Route>
+      <Route path='/calculator' element={<CurrencyCalculator BASE_URL={BASE_URL}r></CurrencyCalculator>}></Route>
+      <Route path='/about-us' element={<AboutUs></AboutUs>}></Route>
+      <Route path='/contact' element={<Contact BASE_URL={BASE_URL}></Contact>}></Route>
+      <Route path='/faq' element={<FAQ BASE_URL={BASE_URL}></FAQ>}></Route>
+      <Route path='/prediction' element={<Prediction BASE_URL={BASE_URL}></Prediction>}></Route>
     </Routes>
     </div>
     <Footer/>
