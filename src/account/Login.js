@@ -34,7 +34,8 @@ export function Login({setUser,setUserLogout,BASE_URL}){
         }
     }
     if(userValid){
-        return <Navigate to='/Bitcoin-Prediction'/>
+        console.log(userValid)
+        return <Navigate to='/'/>
     }
     return(
         <>
@@ -54,7 +55,7 @@ export function Login({setUser,setUserLogout,BASE_URL}){
                 </div>
                 <div className="button-group">
                     <button type="submit" onClick={apply_login}>Login</button>
-                    <Link to='/Bitcoin-Prediction/register'>
+                    <Link to='/register'>
                         <button type="button" className="signup-btn">Sign Up</button>
                     </Link>
                     

@@ -10,3 +10,8 @@
     width:500px;
     height:500px;
 }
+@media only screen and (max-width:414px){
+    .breadcumb_img{
+        display: none;
+    }
+}

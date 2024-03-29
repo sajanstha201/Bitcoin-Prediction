@@ -5,7 +5,7 @@ export function BitcoinFeature(){
             <div style={{width:'100%',textAlign:'center'}}>
                 <div style={{}}>
                 <h2 style={{paddingTop:'80px',paddingBottom:'20px'}}>Let’s change the world together</h2>
-                <p style={{paddingLeft:'35%',paddingRight:'35%',color:'rgb(229, 172, 29)',fontSize:'larger'}}>Unlock the future of Bitcoin investing with our intuitive Prediction App. Instantly access reliable forecasts, real-time data, and personalized insights to make informed decisions. Stay ahead of market movements and maximize your returns effortlessly.</p>
+                <p style={{paddingLeft:'20%',paddingRight:'20%',color:'rgb(229, 172, 29)',fontSize:'larger'}}>Unlock the future of Bitcoin investing with our intuitive Prediction App. Instantly access reliable forecasts, real-time data, and personalized insights to make informed decisions. Stay ahead of market movements and maximize your returns effortlessly.</p>
                 </div>
             </div>
             <div class="row">

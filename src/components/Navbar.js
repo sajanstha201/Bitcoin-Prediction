@@ -23,7 +23,7 @@ export function Navbar({userDetail,setUserDetail,userLogout,setUserLogout}){
                 <Link to='/login' style={{display:(userLogout)?'block':'none'}}>Login</Link>
                 <a onClick={logout_triggerred} style={{display:(userLogout)?'none':'block'}}>Logout</a>
                 <Link to='/faq'>FAQ</Link>
-                <p style={{display:(userLogout)?'none':'block'}} className='hello_user'>Hello {localStorage.getItem('first name')}</p>
+                <p style={{display:(userLogout)?'none':'block',paddingLeft:'10px'}} className='hello_user'>Hello {localStorage.getItem('first name')}</p>
             </div>
         </div>
         </>

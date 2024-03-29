@@ -8,7 +8,9 @@ export function Home({userLogout,BASE_URL}){
     const [getGraph,setGetGraph]=useState(false)
     const base=BASE_URL.substring(7,BASE_URL.length-1)
     if(getGraph){
-    return <Navigate to={`//${base}/ml/graph`}></Navigate>}
+        const url=`https://${base}/ml/graph`
+        window.location.href=url;
+    }
     return(
 <div>
     <div className="upper_container"style={{width:'100%',background:'linear-gradient(to right, #0d104d, #28408b)'}}>
@@ -20,7 +22,7 @@ export function Home({userLogout,BASE_URL}){
         <button onClick={()=>{setGetGraph(true)}}>SHOW PRICE</button>
         <br></br>
         <br></br>
-        <Link to='/Bitcoin-Prediction/prediction'><button  style={{display:userLogout?'none':'block'}}>PREDICT PRICE</button></Link>
+        <Link to='/prediction'><button  style={{display:userLogout?'none':'block'}}>PREDICT PRICE</button></Link>
         </div>
         
         <img alt="breadcumb" className="breadcumb_img" src={breadcumb}></img>

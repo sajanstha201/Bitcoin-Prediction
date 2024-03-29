@@ -48,7 +48,7 @@ export function Register({BASE_URL}){
     }
 
     if(registerSuccess){
-        return <Navigate to='/Bitcoin-Prediction/login'/>
+        return <Navigate to='/login'/>
     }
     const checkAll=()=>{
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
