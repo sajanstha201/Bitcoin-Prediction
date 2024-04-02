@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Bitcoin-Prediction/static/css/main.28ffffc6.css",
-    "main.js": "/Bitcoin-Prediction/static/js/main.b0e339a2.js",
+    "main.js": "/Bitcoin-Prediction/static/js/main.f8ae1640.js",
     "static/js/453.18124194.chunk.js": "/Bitcoin-Prediction/static/js/453.18124194.chunk.js",
     "static/media/breadcumb.png": "/Bitcoin-Prediction/static/media/breadcumb.7b30ccf31b1f63513865.png",
     "static/media/about.png": "/Bitcoin-Prediction/static/media/about.f5e005adc48341722af7.png",
@@ -11,11 +11,11 @@
     "static/media/1.jpg": "/Bitcoin-Prediction/static/media/1.0055ab7c6737e4fa9af8.jpg",
     "index.html": "/Bitcoin-Prediction/index.html",
     "main.28ffffc6.css.map": "/Bitcoin-Prediction/static/css/main.28ffffc6.css.map",
-    "main.b0e339a2.js.map": "/Bitcoin-Prediction/static/js/main.b0e339a2.js.map",
+    "main.f8ae1640.js.map": "/Bitcoin-Prediction/static/js/main.f8ae1640.js.map",
     "453.18124194.chunk.js.map": "/Bitcoin-Prediction/static/js/453.18124194.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28ffffc6.css",
-    "static/js/main.b0e339a2.js"
+    "static/js/main.f8ae1640.js"
   ]
 }
