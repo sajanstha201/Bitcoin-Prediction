@@ -22,7 +22,7 @@ export function AboutUs(){
     </div>
     <div style={{position:'relative',width:'50%',height:'500px'}}>
             <img src={aboutus_img} style={{position:'absolute',left:'20%',top:'100px'} }alt="aboutus_img"></img>
-            <div style={{width:'50%',position:'absolute',left:'100%',top:'100px'}}>
+            <div style={{width:'50%',position:'absolute',left:'120%',top:'100px'}}>
             <h1>Let’s change the world together</h1>
             <p>At Cryptos, we're dedicated to revolutionizing the way you engage with cryptocurrency and financial markets. Our team is passionate about providing users with innovative tools and insights to navigate the ever-changing landscape of digital assets. With a commitment to transparency, security, and user experience, we strive to empower individuals worldwide to make informed decisions and unlock their financial potential. Join us on this exciting journey as we shape the future of finance together.</p>
          </div>
